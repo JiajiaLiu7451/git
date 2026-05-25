@@ -1,2 +1,30 @@
-.env
+# macOS
 .DS_Store
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+bun.lockb
+
+# Build output
+dist/
+build/
+out/
+.next/
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+.turbo/
+.parcel-cache/
+
+# Editor and local config
+.vscode/
+.idea/
